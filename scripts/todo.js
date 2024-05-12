@@ -8,6 +8,8 @@ function init()
        const btnget = document.getElementById("btnget");
     
        btnget.onclick = onbtngetClicked; 
+
+   
 }
 
 function onbtngetClicked()
@@ -52,3 +54,5 @@ fetch(apiUrl)
     console.error('Error:', error);
   });
 }
+
+
